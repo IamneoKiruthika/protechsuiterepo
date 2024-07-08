@@ -1,0 +1,219 @@
+/* Search box styles */
+#searchBox {
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Container styles */
+#projectHomeBody {
+  padding: 20px;
+  background-color: #ffffff;
+  height: auto;
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.editButtonPro,
+.deleteButtonPro,
+.infoButtonPro {
+  padding: 10px 15px !important;
+  margin: 10px 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.editButtonPro {
+  background-color: rgb(48, 165, 48);
+}
+
+.deleteButtonPro {
+  background-color: #dc3545;
+}
+
+.infoButtonPro {
+  background-color: #007BFF;
+}
+
+.editButtonPro:hover,
+.deleteButtonPro:hover,
+.infoButtonPro:hover {
+  opacity: 0.9;
+}
+
+/* Search box and sort buttons container */
+#search-sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sortButtons {
+  background-color: white;
+  padding: 2px !important;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+/* Table styles */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center !important;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-table thead th {
+  background-color: #2b5995;
+  color: white;
+  cursor: pointer;
+}
+
+/* Pagination button styles */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+}
+
+.paginationButton {
+  padding: 10px 15px;
+  background-color: #2b5995;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.paginationButton:hover {
+  background-color: #0056b3;
+}
+
+/* Delete confirmation popup styles */
+.delete-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.delete-popup p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.delete-popup button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.delete-popup button:first-child {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-popup button:first-child:hover {
+  background-color: #e60000;
+}
+
+.delete-popup button:last-child {
+  background-color: #ccc;
+  color: #333;
+}
+
+.delete-popup button:last-child:hover {
+  background-color: #999;
+}
+
+/* No records cell styles */
+.no-records-cell {
+  text-align: center !important;
+  background-color: #f0f0f0;
+  padding: 200px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Info popup styles */
+.info-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.info-content {
+  text-align: left;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.info-popup button {
+  padding: 10px 15px;
+  background-color: #2b5995;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.info-popup button:hover {
+  background-color: #0056b3;
+}
